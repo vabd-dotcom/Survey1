@@ -1,1 +1,129 @@
 # Survey1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Vaccination Perception Survey">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Vaccination Awareness Bangladesh</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      color: #fff;
+      background: #2196f3;
+    }
+    h1 {
+      color: #fff;
+      margin-bottom: 20px;
+    }
+    form {
+      background: #fff;
+      color: #000;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 14px rgb(0 0 0 / 0.5);
+      max-width: 500px;
+      margin-bottom: 20px;
+    }
+    form label {
+      display: block;
+      margin-bottom: 15px;
+    }
+    form input, form select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    form button {
+      padding: 10px 20px;
+      background: #2196f3;
+      color: #fff;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background: #1976d2;
+    }
+  </style>
+</head>
+<body>
+  <h1>Vaccination Awareness Bangladesh</h1>
+
+  <form action="https://formspree.io/f/movwwwow" method="POST">
+    <label>Full Name:
+      <input type="text" name="full_name" required>
+    </label>
+
+    <label>1. Do you think vaccines are effective in preventing disease?
+      <select name="vaccines_effectiveness">
+        <option value="">Select</option>
+        <option value="Very effective">Very effective</option>
+        <option value="Somewhat effective">Somewhat effective</option>
+        <option value="Not effective">Not effective</option>
+        <option value="Not sure">Not sure</option>
+      </select>
+    </label>
+
+    <label>2. Are vaccines safely administered?
+      <select name="vaccines_safety">
+        <option value="">Select</option>
+        <option value="Very safe">Very safe</option>
+        <option value="Somewhat safe">Somewhat safe</option>
+        <option value="Not safe">Not safe</option>
+        <option value="Not sure">Not sure</option>
+      </select>
+    </label>
+
+    <label>3. Do you think vaccines should be mandatory?
+      <select name="vaccines_mandatory">
+        <option value="">Select</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+        <option value="Not sure">Not sure</option>
+      </select>
+    </label>
+
+    <label>4. Do you think there is misinformation about vaccines?
+      <select name="vaccines_misinformation">
+        <option value="">Select</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+        <option value="Not sure">Not sure</option>
+      </select>
+    </label>
+
+    <label>5. Where do you get your information about vaccines?
+      <select name="vaccines_information">
+        <option value="">Select</option>
+        <option value="Healthcare providers">Healthcare providers</option>
+        <option value="Family or friends">Family or friends</option>
+        <option value="Social media">Social media</option>
+        <option value="Other">Other</option>
+      </select>
+    </label>
+
+    <label>6. Do you trust vaccines to protect your community?
+      <select name="vaccines_trust">
+        <option value="">Select</option>
+        <option value="Completely">Completely</option>
+        <option value="Somewhat">Somewhat</option>
+        <option value="Not much">Not much</option>
+        <option value="Not at all">Not at all</option>
+      </select>
+    </label>
+
+    <label>Additional Comments:
+      <input type="text" name="comments">
+    </label>
+
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>
